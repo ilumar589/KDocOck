@@ -94,31 +94,31 @@
 
 ## 8. Desktop UI Module
 
-- [ ] 8.1 Set up Compose Multiplatform desktop project
-- [ ] 8.2 Create main application window with menu bar
-- [ ] 8.3 Implement file selection dialog with type filtering
-- [ ] 8.4 Create file list component with add/remove functionality
-- [ ] 8.5 Implement progress bar component
-- [ ] 8.6 Create current file display component
-- [ ] 8.7 Implement log panel with timestamps and color coding
-- [ ] 8.8 Add log panel toggle functionality
-- [ ] 8.9 Create Gherkin content display with syntax highlighting
-- [ ] 8.10 Implement file list for processed documents
-- [ ] 8.11 Add copy to clipboard functionality (single file)
-- [ ] 8.12 Add copy all to clipboard functionality
-- [ ] 8.13 Implement save to disk dialog (single file)
-- [ ] 8.14 Implement save all to disk functionality
-- [ ] 8.15 Create output directory configuration
-- [ ] 8.16 Implement Ollama connection check UI
-- [ ] 8.17 Create settings dialog (Ollama endpoint, model selection)
-- [ ] 8.18 Implement toast notification system
-- [ ] 8.19 Add success and error notifications
-- [ ] 8.20 Implement auto-dismiss for notifications
-- [ ] 8.21 Create responsive layout that adapts to window size
-- [ ] 8.22 Implement window state persistence (size, position)
-- [ ] 8.23 Add settings persistence across sessions
-- [ ] 8.24 Connect UI to shared module services
-- [ ] 8.25 Implement streaming updates from WebSocket
+- [x] 8.1 Set up Compose Multiplatform desktop project
+- [x] 8.2 Create main application window with menu bar
+- [x] 8.3 Implement file selection dialog with type filtering
+- [x] 8.4 Create file list component with add/remove functionality
+- [x] 8.5 Implement progress bar component
+- [x] 8.6 Create current file display component
+- [x] 8.7 Implement log panel with timestamps and color coding
+- [x] 8.8 Add log panel toggle functionality
+- [x] 8.9 Create Gherkin content display with syntax highlighting
+- [x] 8.10 Implement file list for processed documents
+- [x] 8.11 Add copy to clipboard functionality (single file)
+- [x] 8.12 Add copy all to clipboard functionality
+- [x] 8.13 Implement save to disk dialog (single file)
+- [x] 8.14 Implement save all to disk functionality
+- [x] 8.15 Create output directory configuration
+- [x] 8.16 Implement Ollama connection check UI
+- [x] 8.17 Create settings dialog (Ollama endpoint, model selection)
+- [x] 8.18 Implement toast notification system
+- [x] 8.19 Add success and error notifications
+- [x] 8.20 Implement auto-dismiss for notifications
+- [x] 8.21 Create responsive layout that adapts to window size
+- [x] 8.22 Implement window state persistence (size, position)
+- [x] 8.23 Add settings persistence across sessions
+- [x] 8.24 Connect UI to shared module services
+- [x] 8.25 Implement streaming updates from WebSocket
 
 ## 9. Integration and Testing
 
