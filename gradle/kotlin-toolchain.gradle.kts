@@ -1,0 +1,3 @@
+kotlin {
+    jvmToolchain(25)
+}
