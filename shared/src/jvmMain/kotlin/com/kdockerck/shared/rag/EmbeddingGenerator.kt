@@ -6,6 +6,7 @@ import arrow.core.right
 import com.kdockerck.shared.config.EmbeddingConfig
 import com.kdockerck.shared.errors.AppError
 import com.kdockerck.shared.errors.LLMError
+import com.kdockerck.shared.llm.OllamaClient
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 
@@ -90,10 +91,7 @@ class MockEmbeddingGenerator(
     }
 }
 
-interface OllamaClient {
-    suspend fun generateEmbedding(text: String, model: String): Either<AppError, List<Float>>
-    suspend fun generateEmbeddings(texts: List<String>, model: String): Either<AppError, List<List<Float>>>
-}
+
 
 class TextChunker(
     private val config: EmbeddingConfig

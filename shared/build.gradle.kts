@@ -37,6 +37,7 @@ kotlin {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.9.0")
                 implementation("org.apache.poi:poi:5.3.0")
                 implementation("org.apache.poi:poi-ooxml:5.3.0")
+                implementation("org.jetbrains.koog:koop-core:1.0.0")
             }
         }
 

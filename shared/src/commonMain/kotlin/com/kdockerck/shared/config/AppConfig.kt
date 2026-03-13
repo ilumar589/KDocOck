@@ -7,7 +7,16 @@ data class AppConfig(
     val ollama: OllamaConfig,
     val database: DatabaseConfig,
     val embedding: EmbeddingConfig,
-    val ui: UIConfig
+    val ui: UIConfig,
+    val api: ApiConfig
+)
+
+@Serializable
+data class ApiConfig(
+    val apiKey: String? = null,
+    val port: Int = 8080,
+    val corsEnabled: Boolean = true,
+    val corsOrigins: List<String> = listOf("*")
 )
 
 @Serializable
